@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de números</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class= "pai_container_conteudo">
+
+        <div class="container_conteudo">
+
+            <div class="texto">
+    
+                <h1><strong>Sorteador</strong><br> de números</h1>
+    
+                <div class="container_texto">
+                  <label>Quantidade <br>de números</label>
+                  <input id="quantidade" type="number" name="quantidade" min="1">
+                </div>
+    
+               <div class="container_texto">
+                  <label>Do número</label>
+                  <input id="de" type="number" name="de" min="1">
+               </div>
+    
+               <div class="container_texto">
+                  <label>Até o número</label>
+                  <input id="ate" type="number" name="ate" min="1">
+               </div>
+    
+               <div id="botoes">
+                  <button class="botao-habilitado" id="botao-sortear" onclick="sortear()">Sortear</button>
+                  <button class="botao-desabilitado" id="botao-reiniciar"onclick="reiniciar()">Reiniciar</button>
+               </div>
+
+               <div id="resultado">
+                <label id="exibir-sorteados">Números sorteados: <br> nenhum até o momento.</label>
+               </div>
+    
+            </div>
+    
+            <div class="container_imagem">
+                <img id="astronauta" src="./img/ia.png" alt="Astronauta">
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <footer></footer>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>
