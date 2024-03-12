@@ -128,7 +128,7 @@ input {
     font-weight: bold;
     border-radius: 17px;
     border: transparent;
-    color: aliceblue;
+    color: rgb(253, 253, 253);
     background-color:rgb(116, 115, 115);
     cursor: not-allowed
 }
